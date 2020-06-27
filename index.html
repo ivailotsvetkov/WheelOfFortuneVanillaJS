@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML5 Canvas Winning Wheel</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="./winWheel.js"></script>
+    <script type="text/javascript" src="./logic.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+  </head>
+  <body>
+    <div class="the_wheel">
+      <canvas id="canvas" width="886" height="956">
+        <p>Sorry, your browser doesn't support canvas. Please try another.</p>
+      </canvas>
+      <div class="start" onClick="start()"><br><br><span>Старт</span></div>
+    </div>
+    <div class="content">
+      <div>
+        <label id="score">Score : 0</label>
+      </div>
+      <select name="bet" id="bet" onchange="sel()">
+        <option value="1" id="bet1">BGN1</option>
+        <option value="2" id="bet2">BGN2</option>
+        <option value="3" id="bet3">BGN5</option>
+      </select>
+    </div>
+  </body>
+</html>
+

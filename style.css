@@ -1,0 +1,76 @@
+body
+{
+	font-family: arial;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.the_wheel {
+    position: relative;
+    width: 890px;
+    height: 960px;
+}
+
+.content {
+    position: relative;
+    left: 30px;
+    width: 150px;
+}
+
+.start {
+    position: absolute;
+    top: calc(50% - 66px);
+    left: calc(50% - 66.5px);
+    border-radius: 50%;
+    background-color: white;
+    width: 133px;
+    height: 132px;
+    text-align: center;
+    font-size: 42px;
+    font-family: "Impact";
+    color: rgb(56, 56, 56);
+    line-height: 0.571;
+}
+
+.start:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.start:active {
+    color: black;
+}
+
+.the_wheel::before {
+    content: "";
+    position: absolute;
+    left: calc(50% - 15px);
+    margin-left: -20px;
+    top: 25px;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border: 30px solid transparent;
+    border-top: 30px solid #38bfec;
+}
+
+label {
+    font-size: 24px;
+    font-family: "Impact";
+    padding: 10px;
+    height: 200px;
+}
+
+select {
+    margin: 10px;
+    background-color: chartreuse;
+    font-size: 24px;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.canvas>p {
+    color: white;
+    text-align: center;
+}
