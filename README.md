@@ -3,12 +3,14 @@
 Welcome to the Fortune Wheel! Nice small entertaining project I built. I hope you enjoy! You can access it here (use Google Chrome!): https://ivailotsvetkov.github.io/WheelOfFortuneVanillaJS/
 
 Technologies used:
-*HTML, CSS, Vanilla JS
-*Photoshop
+
+* HTML, CSS, Vanilla JS
+* Photoshop
 
 Libraries used:
-*Gsap
-*WinWheel.js
+
+* Gsap
+* WinWheel.js
 
 ## Rules & requirements:
 
